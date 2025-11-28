@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <nav>
@@ -20,19 +20,30 @@
             </ul>
         </div>
     </nav>
+
+    <!-- HERO with image section -->
     <section id="home" class="hero">
-        <h1>Vaibhav upadhyay</h1>
-        <p>Frontend Developer | Passionate About Creating Clean & Modern Web Experience  </p>
-        
-        <a href="#projects" class="btn">View My Work</a>
-        <a href="#contact" class="btn2 btn">Contact Me</a>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Vaibhav upadhyay</h1>
+                <p>Frontend Developer | Passionate About Creating Clean & Modern Web Experience</p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn2">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <!-- put your own image file here -->
+                <img src="vaibhav.webp" alt="Vaibhav Upadhyay">
+            </div>
+        </div>
     </section>
 
-    
     <section id="about">
         <h2>About Me</h2>
-        
-        
+        <p>
             I am currently learning web development and excited to build my first portfolio.
             I love creating websites and learning new technologies.
             Frontend Developer specializing in modern UI design, 
@@ -41,51 +52,41 @@
         </p>
     </section>
 
-
     <section id="skills">
         <h2>Skills</h2>
         <div class="skills-container">
-            
             <span class="skill">HTML</span>
             <span class="skill">CSS</span>
             <span class="skill">JavaScript</span>
             <span class="skill">React.js</span>
             <span class="skill">Tailwind CSS</span>
-
             <span class="skill">Git</span>
-            
         </div>
     </section>
 
-   
     <section id="projects">
         <h2>Projects</h2>
         <div class="projects-container">
-            
-           
             <div class="project-card">
                 <h3>Ai Based Crop Recommendation System</h3> 
-                <p> An AI-based system that recommends the best crop to grow based on soil, weather, and environmental conditions.</p> 
-                <a href="https://github.com/vaibhavupadhyay001/Krishijeevan">GitHub ↗</a> 
+                <p>An AI-based system that recommends the best crop to grow based on soil, weather, and environmental conditions.</p> 
+                <a href="https://github.com/vaibhavupadhyay001/Krishijeevan" target="_blank">GitHub ↗</a> 
             </div>
 
-            
             <div class="project-card">
                 <h3>Amazon Project</h3> 
                 <p>An Amazon-style e-commerce website clone with product listings, cart functionality, and responsive design.</p>
-                <a href="https://github.com/vaibhavupadhyay001/Basic-Amazon-project">GitHub ↗</a> 
+                <a href="https://github.com/vaibhavupadhyay001/Basic-Amazon-project" target="_blank">GitHub ↗</a> 
             </div>
-
-           
         </div>
     </section>
 
-    
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:vaibhavupadhyay001@gmail.com">vaibhavupadhhyay2408@gmail.com</a></p>
         <p>GitHub: <a href="https://github.com/vaibhavupadhyay001" target="_blank">github.com/vaibhavupadhyay001</a></p>
     </section>
+
     <footer>
         <p>© 2025 Vaibhav upadhyay | Built in Workshop</p>
     </footer>
